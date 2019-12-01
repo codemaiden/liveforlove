@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://live4love.app/* https://live4love.design/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+# https://naughty-benz-22d56e.netlify.com/* https://live4love.design/:splat 301!
