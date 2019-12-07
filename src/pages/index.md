@@ -2,7 +2,9 @@
 templateKey: home-page
 title: Live 4 Love Designs
 heading: Creating new ways to feel alive
-description: 'At L4L, I''m not trying to sell you on anything. I want you to create with me!'
+description: >-
+  Live4Love is almost finished with the new design! Please leave your email if
+  you're interested in what's going on for the new year!
 offerings:
   blurbs:
     - image: /img/social.svg
