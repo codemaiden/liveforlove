@@ -44,7 +44,7 @@ class ContactPageTemplate extends Component {
           <title>{meta_title}</title>
           <meta name='description' content={meta_description} />
         </Helmet>
-        <section className='hero is-primary is-bold is-medium'>
+        <section className='hero is-danger is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>
               <div className='columns'>
@@ -106,7 +106,7 @@ class ContactPageTemplate extends Component {
                   <button className='button is-text' type='reset'>Cancel</button>
                 </div>
                 <div className='control'>
-                  <button className='button is-primary' type='submit' disabled={(!this.state.name) || (!this.state.email) || (!this.state.message)}>Submit</button>
+                  <button className='button is-danger' type='submit' disabled={(!this.state.name) || (!this.state.email) || (!this.state.message)}>Submit</button>
                 </div>
               </div>
             </form>
